@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import random
 
 GENOME_LEN = 20     # Length of the bitstring
@@ -138,14 +138,14 @@ for generation in range(GENERATIONS):
 
 
 
-# plt.figure(figsize=(10,6))
+# # plt.figure(figsize=(10,6))
 
-plt.plot(best_fitness_plot, label="Best Fitness", linewidth=2)
-plt.plot(avg_fitness_plot, label="Average Fitness", linestyle="--")
+# plt.plot(best_fitness_plot, label="Best Fitness", linewidth=2)
+# plt.plot(avg_fitness_plot, label="Average Fitness", linestyle="--")
 
-plt.title("Genetic Algorithm Convergence Over Generations")
-plt.xlabel("Generation")
-plt.ylabel("Fitness")
-plt.legend()
-plt.grid(True)
-plt.show()
+# plt.title("Genetic Algorithm Convergence Over Generations")
+# plt.xlabel("Generation")
+# plt.ylabel("Fitness")
+# plt.legend()
+# plt.grid(True)
+# plt.show()
