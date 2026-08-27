@@ -168,17 +168,17 @@ for generation in range(GENERATIONS):
 
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-plt.figure(figsize=(10,6))
+# plt.figure(figsize=(10,6))
 
-plt.plot(best_fitness_history, label="Best Fitness", linewidth=2)
-plt.plot(avg_fitness_history, label="Average Fitness", linestyle="--")
-plt.plot(worst_fitness_history, label="Worst Fitness", linestyle=":")
+# plt.plot(best_fitness_history, label="Best Fitness", linewidth=2)
+# plt.plot(avg_fitness_history, label="Average Fitness", linestyle="--")
+# plt.plot(worst_fitness_history, label="Worst Fitness", linestyle=":")
 
-plt.title("Genetic Algorithm Convergence Over Generations")
-plt.xlabel("Generation")
-plt.ylabel("Fitness")
-plt.legend()
-plt.grid(True)
-plt.show()
+# plt.title("Genetic Algorithm Convergence Over Generations")
+# plt.xlabel("Generation")
+# plt.ylabel("Fitness")
+# plt.legend()
+# plt.grid(True)
+# plt.show()
